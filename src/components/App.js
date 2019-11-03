@@ -51,17 +51,17 @@ const App = () => {
             <div className="sec3-card">
               <div className="flex flex-jc-ct"><i><img src={LoanImage} alt='quick loans' /></i></div>
               <p className="align-center dom-color twenty-four">Quick Loans</p>
-              <div className="card-detail eighteen">At Arvo, we've developed our app to be as straightforward and convenient as possible. There is no need to take the time to travel to a location</div>
+              <div className="card-detail align-center eighteen">At Arvo, we've developed our app to be as straightforward and convenient as possible. There is no need to take the time to travel to a location</div>
             </div>
             <div className="sec3-card">
               <div className="flex flex-jc-ct"><i><img src={CollatImage} alt='quick loans' /></i></div>
               <p className="align-center dom-color twenty-four">No Collaterals</p>
-              <div className="card-detail eighteen">Through a novelty structured loan, we are able to minise the risk associated with consumer loans in Nigeria. Making loans available for.</div>
+              <div className="card-detail align-center eighteen">Through a novelty structured loan, we are able to minise the risk associated with consumer loans in Nigeria. Making loans available for.</div>
             </div>
             <div className="sec3-card">
               <div className="flex flex-jc-ct"><i><img src={LowestImage} alt='quick loans' /></i></div>
               <p className="align-center dom-color twenty-four">Guaranteed Lowest Interest Rates</p>
-              <div className="card-detail eighteen">As a reasonable fintech company we design our products to ensure our customers get the lowest interest rates in the market.</div>
+              <div className="card-detail align-center eighteen">As a reasonable fintech company we design our products to ensure our customers get the lowest interest rates in the market.</div>
             </div>
           </div>
           <div className="sec4">

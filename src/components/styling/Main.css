@@ -196,6 +196,7 @@
     margin-bottom: 20px;
 }
 .sec7-b{
+    color: #555555;
     margin: 60px 0 45px;
 }
 .sec7-b-col{
@@ -225,6 +226,9 @@
         margin-bottom: 27px;
     }
     .sm-text{
+        font-size: 18px;
+        line-height: 32px;
+        margin: 0;
         max-width: 500px;
     }
     .dnld-text{
