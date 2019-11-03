@@ -101,7 +101,7 @@ const App = () => {
                 <img src={BrownSkin} alt="avatar" />
               </div>
               <p className="dom-color twenty-two align-center">Best Investment App Ever</p>
-              <p className="lg-text eighteen">With ArvoFinance, you can easily get a quick loan within an hour without collateral and delays, you can also invest.</p>
+              <p className="lg-text align-center eighteen">With ArvoFinance, you can easily get a quick loan within an hour without collateral and delays, you can also invest.</p>
               <div className="flex flex-jc-ct"><img src={SmallCircles} alt="carousel tabs" /></div>
             </div>
             <div className="sec6-items flex wrap flex-jc-ct">
