@@ -163,8 +163,8 @@ const App = () => {
               <div>
                 <p>Download our App Now</p>
                 <div className="sec7-c2">
-                  <i><img src={PlayStoreIcon} alt="download android app"/></i>
-                  <i><img src={IosStoreIcon} alt="download ios app"/></i>
+                  <i><img src={PlayStoreIcon} alt="download android app" /></i>
+                  <i><img src={IosStoreIcon} alt="download ios app" /></i>
                 </div>
               </div>
               <p>© Arvo Finance 2019</p>
