@@ -12,6 +12,10 @@ import phone2 from './images/phone2.png';
 import BrownSkin from './images/brownskin.png';
 import JustandProg from './images/justandprog.png';
 import SmallCircles from './images/smallcircles.png';
+import TweeterLogo from './images/tweeter.png';
+import FbLogo from './images/facebook.png';
+import IgLogo from './images/instagram.png';
+import LinkedinLogo from './images/linkedin.png';
 import Crc from './images/crc.png';
 import FirstCentral from './images/firstcentral.png';
 import PayStack from './images/paystack.png';
@@ -62,8 +66,8 @@ const App = () => {
           </div>
           <div className="sec4">
             <div className="sec4-a">
-              <p className="font500 twenty align-center white-text">INVEST WITH ARVO FINANCE</p>
-              <p className="lg-text fifty align-center white-text">
+              <p className="md-text align-center white-text">INVEST WITH ARVO FINANCE</p>
+              <p className="lg-text align-center white-text">
                 The best way to invest your money and get quick access to loans.
               </p>
             </div>
@@ -90,6 +94,8 @@ const App = () => {
             </div>
           </div>
           <div className="sec6">
+            <div className="quat quat1"></div>
+            <div className="quat quat2"></div>
             <div className="sec6-card centered">
               <div className="flex flex-jc-ct">
                 <img src={BrownSkin} alt="avatar" />
@@ -118,38 +124,42 @@ const App = () => {
               <div className="sec7-b-col">
                 <p className="twenty-two dom-color">Solutions</p>
                 <ul className="list-none no-padding">
-                  <li>FEDPAY</li>
-                  <li>Online Application</li>
-                  <li>Financial Planning</li>
-                  <li>Collateral Free Loan</li>
-                  <li>Affordable Interest Rates</li>
+                  <li className="eighteen lh-32">FEDPAY</li>
+                  <li className="eighteen lh-32">Online Application</li>
+                  <li className="eighteen lh-32">Financial Planning</li>
+                  <li className="eighteen lh-32">Collateral Free Loan</li>
+                  <li className="eighteen lh-32">Affordable Interest Rates</li>
                 </ul>
               </div>
               <div className="sec7-b-col">
                 <p className="twenty-two dom-color">Resources</p>
                 <ul className="list-none no-padding">
-                  <li>Blog</li>
-                  <li>Privacy Policy</li>
-                  <li>Terms of service</li>
-                  <li>Press</li>
-                  <li>Contact Us</li>
-                  <li>Fraud Alerts</li>
+                  <li className="eighteen lh-32">Blog</li>
+                  <li className="eighteen lh-32">Privacy Policy</li>
+                  <li className="eighteen lh-32">Terms of service</li>
+                  <li className="eighteen lh-32">Press</li>
+                  <li className="eighteen lh-32">Contact Us</li>
+                  <li className="eighteen lh-32">Fraud Alerts</li>
                 </ul>
               </div>
               <div className="sec7-b-col">
                 <p className="twenty-two dom-color">Support</p>
                 <ul className="list-none no-padding">
-                  <li>+2348021810034</li>
-                  <li>hello@arvofinance.com</li>
-                  <li>ombudsman</li>
-                  <li>
-                    
+                  <li className="eighteen lh-32">+2348021810034</li>
+                  <li className="eighteen lh-32">hello@arvofinance.com</li>
+                  <li className="eighteen lh-32">ombudsman</li>
+                  <br />
+                  <li className="socials">
+                    <img src={TweeterLogo} alt="tweeter" />
+                    <img src={FbLogo} alt="facebook" />
+                    <img src={IgLogo} alt="instagram" />
+                    <img src={LinkedinLogo} alt="linkedin" />
                   </li>
                 </ul>
               </div>
             </div>
             <hr className="dom-color" />
-            <div className="sec7-c flex flex-jc-sb">
+            <div className="sec7-c">
               <div>
                 <p>Download our App Now</p>
                 <div className="sec7-c2">

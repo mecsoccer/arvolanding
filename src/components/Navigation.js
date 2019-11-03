@@ -12,7 +12,7 @@ const Navigation = () => {
     <div className={`nav-container ${nav}`}>
       <div className="nav-content">
         <div className="nav-control">
-          <div className="nav-logo pointer"><Logo /></div>
+          <div className="nav-logo flex flex-ai-ct pointer"><Logo /></div>
           <div className="nav-cancel"
             onClick={() => nav === 'closed' ? toggle('open') : toggle('closed')}
           >

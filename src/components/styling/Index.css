@@ -1,6 +1,10 @@
 html,body,div,span,nav,a,button,img,input,header,ul,li,select,option{
     box-sizing: border-box;
 }
+html{
+    max-width: 1500px;
+    margin: auto;
+}
 html, body{
     height: 100%;
 }
@@ -157,6 +161,9 @@ body{
 }
 .lh-20{
     line-height: 20px;
+}
+.lh-32{
+    line-height: 32px;
 }
 .upper{
     text-transform: uppercase;
